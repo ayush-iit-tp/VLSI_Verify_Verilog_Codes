@@ -1,4 +1,4 @@
-module RCA(
+module full_adder(
   input a, b, cin,
   output sum, cout
 );
