@@ -3,6 +3,7 @@ module full_adder(input a, b, cin, output S, Cout);
   assign Cout = (a & b) | (b & cin) | (a & cin);
 endmodule
 
+// FA using HA
 module half_addr(input a, b, output s, c);
   assign s = a^b;
   assign c = a & b;
